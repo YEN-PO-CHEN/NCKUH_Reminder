@@ -1,0 +1,224 @@
+{
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "下次回診時間",
+          "weight": "bold",
+          "color": "#CD5C5C",
+          "size": "sm"
+        },
+        {
+          "type": "text",
+          "text": "病患名稱",
+          "weight": "bold",
+          "size": "xxl",
+          "margin": "md"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "xxl",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "xxl",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "醫生",
+                  "size": "lg",
+                  "color": "#555555"
+                },
+                {
+                  "type": "text",
+                  "text": "醫生名稱",
+                  "size": "lg",
+                  "color": "#111111",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "科別",
+                  "size": "lg",
+                  "color": "#555555"
+                },
+                {
+                  "type": "text",
+                  "text": "家醫科",
+                  "size": "lg",
+                  "color": "#111111",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "回診日期",
+                  "size": "md",
+                  "color": "#555555"
+                },
+                {
+                  "type": "text",
+                  "text": "111/01/21",
+                  "size": "md",
+                  "color": "#111111",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "建議報到時間",
+                  "size": "md",
+                  "color": "#555555"
+                },
+                {
+                  "type": "text",
+                  "text": "09:30~10:30",
+                  "size": "md",
+                  "color": "#111111",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "看診號",
+                  "size": "md",
+                  "color": "#555555"
+                },
+                {
+                  "type": "text",
+                  "text": "21",
+                  "size": "md",
+                  "color": "#111111",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "看診區(大樓)",
+                  "size": "md",
+                  "color": "#555555"
+                },
+                {
+                  "type": "text",
+                  "text": "門診大樓 2 樓",
+                  "size": "md",
+                  "color": "#111111",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "看診區(室)",
+                  "size": "md",
+                  "color": "#555555"
+                },
+                {
+                  "type": "text",
+                  "text": "眼科 2 5 6 室",
+                  "size": "md",
+                  "color": "#111111",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "備註",
+                  "size": "md",
+                  "color": "#555555"
+                },
+                {
+                  "type": "text",
+                  "text": "請先至視光中心報到",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "end"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "separator",
+          "margin": "xxl"
+        },
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "margin": "md",
+          "contents": [
+            {
+              "type": "text",
+              "text": "NCKU Hospital 智慧型醫療 期末專題",
+              "size": "xs",
+              "color": "#aaaaaa",
+              "flex": 0
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "回到主畫面",
+            "text": "EXIT"
+          },
+          "gravity": "bottom",
+          "margin": "xxl",
+          "style": "primary",
+          "height": "md",
+          "color": "#CD5C5C"
+        }
+      ]
+    },
+    "styles": {
+      "footer": {
+        "separator": true
+      }
+    }
+  }
